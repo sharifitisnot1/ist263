@@ -1,5 +1,5 @@
 body {font-family: Arial, Helvetica, sans-serif;}
 h1,h2 {color: red;}
-.evenrow,h1 {color:gray;}
+tr:nth-child(even){ background-color: gray;}
 h1 {font-faced:12 em <-;}
 h2 {font-faced 9 em <-;}
