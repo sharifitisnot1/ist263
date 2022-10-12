@@ -4,7 +4,7 @@ body {
     color:darkorange
     
 }
-h1,h2 {color:royalblue}
+h1,h2 {color:crimson}
 
 a:link {color:yellow;}
 
@@ -13,4 +13,11 @@ a:visited {
 }
 
 	nav{background-color: white;}
+
+    nav{padding: 10px;}
     
+    nav a{background-color: cyan;}
+
+    a:hover {color:pink}
+
+    nav {margin-bottom: 30px;}
