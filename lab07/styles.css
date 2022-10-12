@@ -1,0 +1,13 @@
+body {
+
+    background-color: black;
+    color:darkorange
+    
+}
+h1,h2 {color:royalblue}
+
+a:link {color:yellow;}
+
+a:visited {
+    color:#9003fc
+}
