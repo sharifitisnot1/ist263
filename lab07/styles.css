@@ -1,23 +1,23 @@
 body {
 
-    background-color: black;
-    color:darkorange
+    background-color:#000000;
+    color: #8b4000;
     
 }
-h1,h2 {color:crimson}
+h1,h2 {color:#9003fc}
 
-a:link {color:yellow;}
+a:link {color: #ff0;}
 
 a:visited {
     color:#9003fc
 }
 
-	nav{background-color: white;}
+	nav{background-color:#ffffff;}
 
     nav{padding: 10px;}
     
-    nav a{background-color: cyan;}
+    nav a{background-color:#00ffff;}
 
-    a:hover {color:pink}
+    a:hover {color:#ffc0cb}
 
     nav {margin-bottom: 30px;}
