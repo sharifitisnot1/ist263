@@ -6,6 +6,64 @@
         <meta charset="utf-8">
     <title>Contact</title>
     <link rel="stylesheet" href="styles.css">
+<style>
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+
+
+		   .div1 {
+        float:right;
+        margin: 20px;
+        clear: right;
+
+    }
+
+    .div2{
+        float:left;
+        margin: 20px;
+        clear: both;
+    }
+    .flex-container1 {
+  display: flex;
+  background-color: beige;
+  flex-shrink: 2;
+  border-radius: 105px;
+  justify-content: space-around;
+  width: 90%;
+}
+
+.flex-container1 > div {
+  background-color: beige;
+  margin: 50px;
+  font-size: 30px;
+float:left;
+
+}
+
+
+    .flex-container2 {
+  display: flex;
+  background-color: rosybrown;
+  justify-content: space-between;
+  border-radius: 125px;
+ width: 90%;
+}
+
+.flex-container2 > div {
+  background-color: rosybrown;
+  margin: 40px;
+
+  font-size: 30px;
+}
+
+</style>
+
+
 </head>
 
 <body>
@@ -17,40 +75,76 @@
         </div>
        
     </nav>
-     <h1>Contact</h1>
-    <h2> 130 Beverly Rd <br>
-        Syrcacuse Ny 13207</h2>
 
-   <h3><a href="mailto:sbey01@syr.edu">sbey01@syr.edu></a></h3>
+    
+    
 
-   <h2>my linkedin profile <a href="https://www.linkedin.com/in/beysharifsharif/" target="_blank">  <img src="../images/linkedincopy.png.png" alt="linkedin logo"></a> </h2>
+   
 
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.571384916188!2d-76.17021488478557!3d43.029408100560275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f3f9eb8ece41%3A0x421495d4f15c61b7!2s130%20Beverly%20Rd%2C%20Syracuse%2C%20NY%2013207!5e0!3m2!1sen!2sus!4v1663175972949!5m2!1sen!2sus" width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-<h2> What is your fav programming language?</h2>
-<form action="https://formspree.io/f/mgeqkedr" method="POST">
-    <label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname"><br><br>
-  <label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname"><br><br>
-    <label for="form">form:</label>
+
+
+<div class="flex-container1">
     <br>
-    <input type="radio" id="html" name="fav_language" value="HTML">
-    <label for="html">HTML</label><br>
-    <input type="radio" id="css" name="fav_language" value="CSS">
-    <label for="css">CSS</label><br>
-    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-    <label for="javascript">JavaScript</label>
-    <br>
-      <input type="submit" value="Submit">
-      <br>
-      <h2>is it something diffrent why?</h2>
-      <textarea id="form" name="form" rows="4" cols="50">
-
-    </textarea>
-</form>
+    
+       <div>  <div class="div2">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.571384916188!2d-76.17021488478557!3d43.029408100560275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f3f9eb8ece41%3A0x421495d4f15c61b7!2s130%20Beverly%20Rd%2C%20Syracuse%2C%20NY%2013207!5e0!3m2!1sen!2sus!4v1663175972949!5m2!1sen!2sus" width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div></div>
 
 
+       <div> 
+      <justify-content: space-around>
+
+        <div class="div1">
+        <h2> What is your favorite programming language?</h2>
+        <form action="https://formspree.io/f/mgeqkedr" method="POST">
+            <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname"><br><br>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname"><br><br>
+            <label for="form">Answer?:</label>
+            
+            <br>
+         
+        
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+            <br>
+            
+              <h2>Is it something diffrent why?</h2>
+              <textarea id="form" name="form" rows="4" cols="50">
+             
+            </textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </div>
+        </form></div>
+
+
+</div>
+<justify-content:space-between> <div>.
+
+</div>          </justify-content:space-between>
+<div class="flex-container2">
+       <div> <h1>Contact</h1>
+        <h2> 130 Beverly Rd <br>
+            Syrcacuse Ny 13207</h2></div>
+
+
+       <div><h3><a href="mailto:sbey01@syr.edu">sbey01@syr.edu></a></h3>
+<br>
+
+
+
+        <h2>my linkedin profile <a href="https://www.linkedin.com/in/beysharifsharif/" target="_blank">  <img src="../images/linkedincopy.png.png" alt="linkedin logo"></a> </h2></div>
+
+
+
+</div>
 
     </body>
     

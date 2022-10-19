@@ -21,3 +21,14 @@ a:visited {
     a:hover {color:#ffc0cb}
 
     nav {margin-bottom: 30px;}
+
+    .div1 {
+        float: left;
+        margin: 20px;
+
+    }
+
+    .div2{
+        float:right;
+        margin: 20px;
+    }
