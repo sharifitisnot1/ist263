@@ -38,9 +38,15 @@ a:visited {
   
     @media only screen and (max-width:640px){body{
         font-size: 25px;}
-        .nav{min-width:833px; width:100%; display: block;}
-    .span{
-        display: none;
-    }
+        .nav{max-width: 100%;
+            width:300px;
+            height:auto;
+            padding:10px;
+            display: block;
+        }
         
+@media only screen and (min-width: 768px){.span{display: none;}}.body{font-size: 45px;}
+    
 }
+
+
