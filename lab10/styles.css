@@ -1,0 +1,38 @@
+body {
+
+    background-color:#000000;
+    color: #8b4000;
+    
+}
+h1,h2 {color:#9003fc;
+    margin-right: 20px;
+
+}
+
+a:link {color: #ff0;}
+
+a:visited {
+    color:#9003fc
+}
+
+	nav{background-color:#ffffff;}
+
+    nav{padding: 10px;}
+    
+    nav a{background-color:#00ffff;}
+
+    a:hover {color:#ffc0cb}
+
+    nav {margin-bottom: 30px;}
+
+    .div1 {
+        float: left;
+        margin: 20px;
+
+    }
+
+    .div2{
+        float:right;
+        margin: 20px;
+    }
+    
