@@ -35,4 +35,12 @@ a:visited {
         float:right;
         margin: 20px;
     }
-    
+  
+    @media only screen and (max-width:640px){body{
+        font-size: 25px;}
+        .nav{min-width:833px; width:100%; display: block;}
+    .span{
+        display: none;
+    }
+        
+}
