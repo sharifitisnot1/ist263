@@ -48,13 +48,11 @@ a:visited {
 @media only screen and (max-width: 800px)
 {
 .body{font: size 45px; ;}
-.text-piped{ flex-direction: column; padding: 35px; justify-content: space-between; display: flex;  flex-wrap: nowrap; 
+.text-piped{ flex-direction: column; padding: 35px; justify-content: space-between; display: flex; display: none; flex-wrap: nowrap; 
 }
 }
 
 
 
-@media only screen and (max-width: 800px)
-{.span{display: none;}}
 
 
