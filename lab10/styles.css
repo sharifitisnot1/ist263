@@ -36,7 +36,7 @@ a:visited {
         margin: 20px;
     }
   
-    @media only screen and (max-width:600px)
+    @media only screen and (max-width: 600px)
     {body{ font-size: 55px;}
         nav a{max-width: 100%;
             padding:10px;
@@ -45,16 +45,16 @@ a:visited {
             justify-content: space-around;
         }
     }
-@media only screen and (max-width:400px)
+@media only screen and (max-width: 800px)
 {
 .body{font: size 45px; ;}
-.span{display: none;}
 .text-piped{ flex-direction: column; padding: 35px; justify-content: space-between; display: flex;  flex-wrap: nowrap; 
 }
 }
 
 
 
-
+@media only screen and (max-width: 800px)
+{.span{display: none;}}
 
 
