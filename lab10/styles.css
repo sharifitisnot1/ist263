@@ -36,17 +36,24 @@ a:visited {
         margin: 20px;
     }
   
-    @media only screen and (max-width:640px){body{
-        font-size: 55px;}
+    @media only screen and (max-width:640px)
+    {body{ font-size: 55px;}
         .nav{max-width: 100%;
-            width:300px;
-            height:auto;
             padding:10px;
             display: block;
+            flex-direction: row;
+            justify-content: space-around;
         }
-        
-@media only screen and (min-width: 768px){.span{display: none;}}.body{font-size: 45px;}
-    
+    }
+@media only screen and (min-width: 640px)
+{.span{display: none;}
+.body{font: size 45px; ;}
+.text-piped{flex-direction: column; padding: 35px; justify-content: space-between;}
 }
+
+
+
+
+
 
 
