@@ -45,12 +45,13 @@ a:visited {
             justify-content: space-around;
         }
     }
-@media only screen and (max-width: 640px)
-{.span{display: none;}
+@media only screen and (max-width:400px)
+{
 .body{font: size 45px; ;}
-.text-piped{ flex-direction: column; padding: 35px; justify-content: space-between; display: flex;  flex-wrap: nowrap;}
+.span{display: none;}
+.text-piped{ flex-direction: column; padding: 35px; justify-content: space-between; display: flex;  flex-wrap: nowrap; 
 }
-
+}
 
 
 
