@@ -1,8 +1,8 @@
 body {
     
-
+font-weight: bold;
     background-color:#000000;
-    color: #8b4000;
+    color:#9003fc;
     
 }
 h1 {
@@ -32,7 +32,7 @@ a:visited {
 
     nav{padding: 10px;}
     
-    nav a{background-color:#00ffff;}
+    nav a{background-color:#000000;}
 
     a:hover {color:#ffc0cb}
 
