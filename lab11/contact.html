@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+      <meta name="viewport" content="widith= device-widith,initial-scale=1.0">
+        <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+<style>
+  .skip-to-main-content-link {
+    position: absolute;
+    left: -9999px;
+    z-index: 999;
+    padding: 1em;
+    background-color: black;
+    color: white;
+    opacity: 0;
+  }
+  .skip-to-main-content-link:focus {
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+  }
+
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 30em;  height: 5em;
+}
+
+
+		   .div1 {
+        float:right;
+        margin: 20px;
+
+    }
+
+    .div2{
+        float:left;
+        margin: 20px;
+        clear: both;
+    }
+    .flex-container1 {
+  display: flex;
+  background-color: #c7ad7f;
+  flex-shrink: 2;
+  flex-direction: column;
+  border-radius: 105px;
+  width: 90%;
+  margin-left: 60px;
+  flex-wrap: wrap;
+}
+
+.flex-container1 > div {
+  background-color: #c7ad7f;;
+  margin-bottom: 50px;
+  font-size: 30px;
+float:left;
+
+}
+
+
+    .flex-container2 {
+  display: flex;
+  background-color:  #b18c90;
+  border-radius: 125px;
+ width: 90%;
+ margin-left: 60px;
+ margin-top: 100px;
+ margin-bottom: 30px;
+}
+
+.flex-container2 > div {
+  background-color: #b18c90;
+  margin: 40px;
+
+  font-size: 30px;
+}
+
+</style>
+
+
+</head>
+
+<body>
+  <nav>
+    <div class="text-piped"> 
+      <a id='skip' tabindex="1" href="#content">skip to content</a>
+        <a href="../lab08/index.html">Home <span>|</span></a>
+        <a href="skills.html">Skills <span>|</span></a>
+        <a href="../lab08/contact.html">Contact </a>
+    
+    </div>
+   
+</nav>
+
+    
+    
+
+
+
+<div class="flex-container1">
+    <br>
+    
+       <div>  <div class="div2">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.571384916188!2d-76.17021488478557!3d43.029408100560275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f3f9eb8ece41%3A0x421495d4f15c61b7!2s130%20Beverly%20Rd%2C%20Syracuse%2C%20NY%2013207!5e0!3m2!1sen!2sus!4v1663175972949!5m2!1sen!2sus" width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div></div>
+
+
+        <section>
+   
+          <h2>form</h2>
+      
+
+        <div class="div1">
+        <h3> What is your favorite programming language?</h3>
+        <form action="https://formspree.io/f/mgeqkedr" method="POST">
+            <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname"><br><br>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname"><br><br>
+            <label for="form">Answer?:</label>
+            
+            <br>
+         
+        
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+            <br>
+            
+              <h4>Is it something diffrent why?</h4>
+              <textarea id="form" name="form" rows="4" cols="50">
+             
+            </textarea>
+            <br>
+            <input type="submit" value="Submit">
+        
+        </form></div>
+
+
+</div>
+
+</section>
+
+<section>
+
+  <h5 id="content">Personal Information</h5>
+
+<div class="flex-container2">
+       <div> <h6>Contact</h6>
+        <h7> 130 Beverly Rd <br>
+            Syrcacuse Ny 13207</h7></div>
+
+
+       <div><h8><a href="mailto:sbey01@syr.edu">sbey01@syr.edu></a></h8>
+<br>
+
+
+
+        <h9>My Linkedin profile <a href="https://www.linkedin.com/in/beysharifsharif/" target="_blank">  <img src="../images/linkedincopy.png.png" alt="Linkedin"></a> </h9></div>
+
+
+
+</div>
+
+</section>
+    </body>
+    
+
+
+</html>

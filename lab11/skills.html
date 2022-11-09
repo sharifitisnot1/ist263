@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+.skip-to-main-content-link {
+    position: absolute;
+    left: -9999px;
+    z-index: 999;
+    padding: 1em;
+    background-color: black;
+    color: white;
+    opacity: 0;
+  }
+  .skip-to-main-content-link:focus {
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+  }
+
+   table, th, td{border: 1px solid #0000;}
+
+
+.row1 {
+    display: flex;
+   
+    
+}
+
+.flex-container{
+    margin-left: 20px;
+    padding: 10px;
+    display: flex;
+  background-color: #008080;
+  border-radius: 25px;
+ width: 90%;
+flex-direction: column;
+
+
+}
+
+  
+  
+.flexbox2{
+    display: flex;
+padding: 20px;
+margin-top: 40px;
+
+
+
+
+}
+
+
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+ 
+    <nav>
+        <div class="text-piped"> 
+            <a id='skip' tabindex="1" href="#content">skip to content</a>
+            <a href="../lab08/index.html">Home <span>|</span></a>
+            <a href="skills.html">Skills <span>|</span></a>
+            <a href="../lab08/contact.html">Contact </a>
+        
+        </div>
+       
+    </nav>
+
+    <div class="margincentering">
+    <h1> Sharif's Skills</h1>
+
+    </div>
+    <p>My carreer focuses are mostly within the IT field but my skillset also ranges from social work to Bussiness Operations.</p>
+
+<section>
+
+<h2 id="content">Primary skills</h2>
+
+   <div class="flexbox2">
+<div>
+    <div class="row1">
+
+
+
+        <div>  <img src="../images/cloudimg.png" alt="Cloud Computing" width="100" height="100">
+       <h3>Cloud Computing</h3>
+            </div>
+       
+            <div>   <img src="../images/projectimg.png" alt="Project Mangement" width="100" height="100">
+       <h4>Project Mangement</h4>
+            </div>
+        
+            <div>  <img src="../images/iosimg.png" alt="IOS troubleshooting" width="100" height="100">
+                <h5>IOS Troubleshooting</h5>
+                            </div>
+
+
+
+
+
+
+        <div>  <img src="../images/excelimg.png" alt="Microsoft Excel" width="100" height="100">
+            <h6>Microsoft Excel</h6> 
+        </div>
+
+
+
+       <img src="../images/htmlimg.png" alt="HTML" width="100" height="100">
+       <h7>HTML</h7>
+           
+        </div>    
+    </div>
+</div>
+
+</section>
+
+<section>
+
+
+<div>
+
+    <div class="flex-container">
+       
+        <h8>Secondary Skills</h8>
+    
+        <p>Child Development
+
+        <br>
+        
+      
+      Bussiness Strategy
+     
+        <br>
+      Youth mentoring
+        
+    <br>
+      SQL
+      
+    <br>
+       Computer repair</p>
+
+   </div>
+
+
+</div>
+
+   </div>
+ </section>
+  
+   
+  
+</body>
+</html>
