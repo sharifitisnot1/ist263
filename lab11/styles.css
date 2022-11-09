@@ -22,10 +22,10 @@ h1,h2 {color: #ffffff;
 
 }
 
-a:link {color: #000000;}
+a:link {color: purple;}
 
 a:visited {
-    color:#ffffff;
+    color:yellow;
 }
 
 	nav{background-color:#ffffff;}
