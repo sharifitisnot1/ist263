@@ -1,7 +1,7 @@
 body {
     
 font-weight: bold;
-    background-color:#000000;
+    background-color:gray;
     color:#ffffff
     
 }
@@ -17,7 +17,7 @@ h1 {
 
 
 
-h1,h2 {color: #ffffff;
+h1,h2 {color: black;
     margin-right: 20px;
 
 }
