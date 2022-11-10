@@ -10,14 +10,15 @@ h1 {
   }
   
   p {
+    color: #000;
     font-size: 2em;
     line-height: 1em;
   }
 
 
+h3{color: #ffffff;}
 
-
-h1,h2 {color: #000;
+h1,h2 {color: #ffffff;
     margin-right: 20px;
 
 }
