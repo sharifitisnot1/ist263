@@ -28,11 +28,11 @@ a:visited {
     color:yellow;
 }
 
-	nav{background-color:#ffffff;}
+	nav{background-color:#000000;}
 
     nav{padding: 10px;}
     
-    nav a{background-color:#000000;}
+    nav a{background-color:gray;}
 
     a:hover {color:#ffc0cb}
 
