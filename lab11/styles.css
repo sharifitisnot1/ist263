@@ -2,7 +2,7 @@ body {
     
 font-weight: bold;
     background-color:#424242 ;
-    color:#ffffff;
+    color:#000
     
 }
 h1 {
@@ -17,22 +17,22 @@ h1 {
 
 
 
-h1,h2 {color: #ffffff;
+h1,h2 {color: #000;
     margin-right: 20px;
 
 }
 
-a:link {color:#424242 ;}
+a:link {color:#000 ;}
 
 a:visited {
-    color: #ffffff;
+    color: black
 }
 
 	nav{background-color:#000}
 
     nav{padding: 10px;}
     
-    nav a{background-color:#424242;}
+    nav a{background-color:#ffffff}
 
     a:hover {color:#ffc0cb}
 
