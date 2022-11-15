@@ -1,0 +1,118 @@
+body {
+    
+    font-weight: bold;
+        background-color:#F1AC88FF;
+        color:#783937FF
+    }
+
+    .p1videos{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+    margin-top: 20px;
+    background-color:#FC766AFF; max-width: 100%;
+    border-radius: 25px;
+    }
+
+       .vid2{
+        margin: 20px;
+       }
+
+       .vid3{
+        border-radius: 25px;
+       }
+.text1{
+display: flex;
+padding: 20px;
+background-color: #FC766AFF;
+border-radius: 25px;
+}
+
+.text2{
+ display: flex;
+ margin-bottom: 20px;
+ background-color: #FC766AFF;
+ border-radius: 25px;
+ float: right;
+}
+
+
+a:link {color: #FC766AFF;}
+
+a:visited {
+    color: #783937FF;
+}
+
+
+nav{background-color: #FC766AFF}
+
+nav{padding: 10px;}
+
+nav a{background-color: #FC766AFF}
+
+a:hover {color:#F1AC88FF;}
+
+nav {margin-bottom: 30px;}
+
+.text3{
+    display: flex;
+    padding: 20px;
+    background-color: #FC766AFF;
+    border-radius: 25px;
+    margin-top: 45px;
+    }
+    
+    .text4{
+     display: flex;
+     margin-bottom: 20px;
+     background-color: #FC766AFF;
+     border-radius: 25px;
+     margin-top: 70px;
+    }
+
+    .vidp2{
+        display: flex;
+        background-color:#FC766AFF ;
+        margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+    }
+
+    .text5{
+        display: flex;
+        padding: 20px;
+        background-color: #FC766AFF;
+        border-radius: 25px;
+        margin-top: 35px;
+        }
+        
+        .text6{
+         display: flex;
+         margin-bottom: 20px;
+         background-color: #FC766AFF;
+         border-radius: 25px;
+         margin-top: 300px;
+        }
+    
+        .L{display: flex;
+            margin-top: 30px;
+            background-color: #FC766AFF;
+            border-radius: 25px;
+
+        }
+
+        @media only screen and (max-width: 600px)
+        {body{ font-size: 55px;}
+            nav a{max-width: 100%;
+                padding:10px;
+                display: block;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+        }
+    @media only screen and (max-width: 800px)
+    {
+    .body{font: size 45px; ;}
+    .text-piped{ flex-direction: column; padding: 35px; justify-content: space-between; display: flex;  flex-wrap: nowrap; 
+    }
+    }
