@@ -137,3 +137,7 @@ nav {margin-bottom: 30px;}
     .text-piped{ flex-direction: column; padding: 35px; justify-content: space-between; display: flex;  flex-wrap: nowrap; 
     }
     }
+
+    iframe{width: 1500px; height: 800px;
+       
+    }
