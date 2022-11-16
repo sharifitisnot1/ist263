@@ -10,7 +10,7 @@ body {
         flex-direction: row;
         margin-bottom: 20px;
     margin-top: 20px;
-    background-color:#783937FF; max-width: 100%;color: #FC766AFF;
+    background-color:black; max-width: 100%;color: #FC766AFF;
     border-radius: 25px;
     margin: 25px;
     }
@@ -25,14 +25,14 @@ body {
 .text1{
 display: flex;
 padding: 20px;
-background-color: #FC766AFF;
+background-color: white;
 border-radius: 25px;
 }
 
 .text2{
  display: flex;
  margin-bottom: 20px;
- background-color:#783937FF ;
+ background-color:black;
  border-radius: 25px;
  color: #FC766AFF;
  float: right;
@@ -46,11 +46,11 @@ a:visited {
 }
 
 
-nav{background-color: #783937FF}
+nav{background-color:black}
 
 nav{padding: 10px;}
 
-nav a{background-color: #783937FF}
+nav a{background-color:black}
 
 a:hover {color:#F1AC88FF;}
 
@@ -59,7 +59,7 @@ nav {margin-bottom: 30px;}
 .text3{
     display: flex;
     padding: 20px;
-    background-color:#783937FF ;
+    background-color:black ;
     color:#FC766AFF ;
     border-radius: 25px;
     margin-top: 45px;
@@ -68,14 +68,14 @@ nav {margin-bottom: 30px;}
     .text4{
      display: flex;
      margin-bottom: 20px;
-     background-color: #FC766AFF;
+     background-color: white;
      border-radius: 25px;
      margin-top: 70px;
     }
 
     .vidp2{
         display: flex;
-        background-color:#FC766AFF ;
+        background-color:white;
         margin-bottom: 20px;
     margin-top: 20px;
     border-radius: 25px;
@@ -84,7 +84,7 @@ nav {margin-bottom: 30px;}
     .text5{
         display: flex;
         padding: 20px;
-        background-color:#783937FF ;
+        background-color:black;
         color:#FC766AFF ;
         border-radius: 25px;
         margin-top: 35px;
@@ -93,14 +93,14 @@ nav {margin-bottom: 30px;}
         .text6{
          display: flex;
          margin-bottom: 20px;
-         background-color: #FC766AFF;
+         background-color: white;
          border-radius: 25px;
          margin-top: 100px;
         }
 
  .q1{
     display: flex;
-    background-color:#783937FF ;
+    background-color:black;
     color:#FC766AFF ;
     border-radius: 25px;
     margin-bottom: 20px;
@@ -109,7 +109,7 @@ nav {margin-bottom: 30px;}
     
 .q2{
     display: flex;
-    background-color:#783937FF ;
+    background-color:black ;
     color:#FC766AFF ;
     border-radius: 25px;
 }
