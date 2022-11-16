@@ -141,3 +141,6 @@ nav {margin-bottom: 30px;}
     iframe{width: 1500px; height: 800px;
        
     }
+    iframe{
+        border-width: 0px;
+    }
