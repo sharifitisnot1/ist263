@@ -14,18 +14,18 @@
             width: 1200px;
             margin: auto; /* margin auto is centering this container */        
         }
-        #bigimages {margin-right: 100px;}
+        #bigimages {margin-right: 100px; float: left;}
         #planetinfo {padding: 100px;}
-        #thumbnails {width: 840px; margin: auto; padding-top: 20px;} 
+        #thumbnails {width: 840px; margin: auto; padding-top: 20px;
+        clear: both;} 
         /* ^^ margin auto is centering this container */
+    
         #mercurythumb, #venusthumb, #earththumb, #marsthumb, #jupiterthumb, #saturnthumb, #uranusthumb, #neptunethumb 
         {width: 100px;}
 #notmercury{
     display: none;
 }
-#otherplanets{
-    display: none;
-}
+
 
 #mercury{
     float: left;
@@ -96,7 +96,6 @@
 <div id="slideshow-container">
     <div id="bigimages">
         <img src="https://laferger.github.io/ist263/images/mecury.jpg" alt="mercury" id="mercury"  onclick="PlanetsOff();" >
-<div id="otherplanets">
         <img src="https://laferger.github.io/ist263/images/venus.jpg" alt="venus" id="venus" onclick="PlanetsOff();">
         <img src="https://laferger.github.io/ist263/images/earth.jpg" alt="earth" id="earth" onclick="PlanetsOff();">
         <img src="https://laferger.github.io/ist263/images/mars.jpg" alt="mars" id="mars" onclick="PlanetsOff();">
@@ -104,7 +103,6 @@
         <img src="https://laferger.github.io/ist263/images/saturn.jpg" alt="saturn" id="saturn" onclick="PlanetsOff();">
         <img src="https://laferger.github.io/ist263/images/uranus.jpg" alt="uranus" id="uranus"  onclick="PlanetsOff();">
         <img src="https://laferger.github.io/ist263/images/neptune.jpg" alt="neptune" id="neptune" onclick="PlanetsOff();">
-    </div>
     </div>
 
     <div id="thumbnails">        
@@ -120,7 +118,15 @@
 
     </div>
 
-        <div id="notmercury">
+        <div id="planetinfo">
+            <h1>Planets Slideshow</h1>
+
+            <div id="mercuryinfo">
+
+
+                <h2>Mercury</h2>
+                <p>Mercury is the smallest and innermost planet in the Solar System. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the planets in the Solar System. It is named after the Greek god Hermes (Ερμής), translated into Latin Mercurius Mercury, god of commerce, messenger of the gods, mediator between gods and mortals.</p>
+            </div>
 
         <div id="venusinfo">
             <h2>Venus</h2>
@@ -159,16 +165,7 @@
    
     </div>
 
-    <div id="planetinfo">
-        <div id="mercuryinfo">
-
-<h1>Planets Slideshow</h1>
-            <h2>Mercury</h2>
-            <p>Mercury is the smallest and innermost planet in the Solar System. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the planets in the Solar System. It is named after the Greek god Hermes (Ερμής), translated into Latin Mercurius Mercury, god of commerce, messenger of the gods, mediator between gods and mortals.</p>
-        </div>
-    </div>
-
-</div>
+  
 
 </body>
 </html>
