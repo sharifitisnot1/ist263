@@ -103,7 +103,7 @@ nav {margin-bottom: 30px;}
     background-color:black;
     color:#FC766AFF ;
     border-radius: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
        
     
@@ -138,9 +138,23 @@ nav {margin-bottom: 30px;}
     }
     }
 
-    iframe{width: 1500px; height: 800px;
+    iframe{max-width: 50%; height: auto;
        
     }
     iframe{
         border-width: 0px;
     }
+
+
+img{ max-width: 40%;
+    height: auto;
+
+}
+
+.ban{float: left; margin-bottom: 30px; margin-right: 20px;}
+
+.firstimage{width: 50em; float: left; margin: 20px;}
+.bron{width: 60em; float: left; margin: 20px;}
+
+.ed{  background-color:black ;
+    color:#FC766AFF ;}
