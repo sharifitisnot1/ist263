@@ -158,3 +158,8 @@ img{ max-width: 40%;
 
 .ed{  background-color:black ;
     color:#FC766AFF ;}
+
+    @import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Open+Sans:ital,wght@1,500&display=swap');
+
+    h1,h2,p{font-family: 'Nerko One', cursive;
+        font-family: 'Open Sans', sans-serif;}
