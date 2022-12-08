@@ -1,0 +1,87 @@
+body {
+        background-color:#ffffff;
+        color:#000000;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+
+    header{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+
+    footer{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+    
+
+    a:link {color:#000000;}
+
+a:visited {
+    color:#000000;
+}
+img{ max-width: 100%;
+    height: auto;
+
+}
+a:hover {color:#0000ff;}
+
+h1{
+    color:#000000;
+ font-size: 2em;
+}
+
+h2{
+    color:#000000;
+}
+
+.WI{
+    max-width: 100%;
+    height: auto;
+}
+
+.W{
+    max-width: 100%;
+    height: auto;
+}
+
+.M{
+    max-width: 100%;
+    height: auto;
+}
+
+.top{
+    background-color: #fff000;
+    border: 1px #000000;
+    border-radius: 95px;
+}
+
+.adult{
+    background-color: #fff000;
+    border: 1px #000000;
+    border-radius: 95px;
+}
+
+.gender{
+    background-color: #fff000;
+    border: 1px #000000;
+    border-radius: 95px;
+}
+
+.ref1{ background-color: #fff000;
+    border: 1px #000000;
+    border-radius: 95px;
+
+}
+
+.ref2{
+    background-color: #fff000;
+    border: 1px #000000;
+    border-radius: 95px;
+}
+
+.ref3{
+    background-color: #fff000;
+    border: 1px #000000;
+    border-radius: 95px;
+}
