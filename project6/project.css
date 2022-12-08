@@ -163,3 +163,16 @@ img{ max-width: 40%;
 
     h1,h2,p{font-family: 'Nerko One', cursive;
         font-family: 'Open Sans', sans-serif;}
+
+        .skip-to-main-content-link {
+            position: absolute;
+            left: -9999px;
+            z-index: 999;
+            padding: 1em;
+            opacity: 0;
+          }
+          .skip-to-main-content-link:focus {
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 1;
+          }
