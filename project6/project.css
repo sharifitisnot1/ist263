@@ -5,15 +5,6 @@ body {
         color:#783937FF
     }
 
-    .p1videos{
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 20px;
-    margin-top: 20px;
-    background-color:black; max-width: 100%;color: #FC766AFF;
-    border-radius: 25px;
-    margin: 25px;
-    }
 
        .vid2{
         margin: 20px;
@@ -175,4 +166,9 @@ img{ max-width: 40%;
             left: 50%;
             transform: translateX(-50%);
             opacity: 1;
+          }
+          .S{ background-color:black ;
+            color:#FC766AFF ;
+            border-radius: 25px;
+
           }
