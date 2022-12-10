@@ -2,9 +2,10 @@ body {
     
     font-weight: bold;
         background-color:#F1AC88FF;
-        color:#783937FF
+        color:#783937FF;
+        font-size: 1em;
+        
     }
-
 
        .vid2{
         margin: 20px;
